@@ -127,6 +127,9 @@ html {
     background: none;
     border: none;
     -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
     box-shadow: none;
 }
 
@@ -146,19 +149,35 @@ html {
     margin-bottom: 1em;
 }
 
+#reveal section img.minicoffee {
+    border: solid 1px #bbb;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background: -moz-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -webkit-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -o-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -ms-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+}
+
 #reveal .coffeescript {
     margin: 50px auto;
     padding: 10px;
     height: 50px;
     width: 245px;
     background: -moz-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -webkit-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -o-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: -ms-linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
+    background: linear-gradient(center top , rgb(248, 248, 248), rgb(218, 218, 218)) repeat scroll 0% 0% transparent;
     border-right: 1px solid rgb(170, 170, 170);
     border-left: 1px solid rgb(170, 170, 170);
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
     -moz-border-image: none 100% 100% 100% 100% / 1 1 1 1 / 0 0 0 0 stretch stretch;
+    -webkit-border-image: none 100% 100% 100% 100% / 1 1 1 1 / 0 0 0 0 stretch stretch;
+    -o-border-image: none 100% 100% 100% 100% / 1 1 1 1 / 0 0 0 0 stretch stretch;
+    -ms-border-image: none 100% 100% 100% 100% / 1 1 1 1 / 0 0 0 0 stretch stretch;
+    border-image: none 100% 100% 100% 100% / 1 1 1 1 / 0 0 0 0 stretch stretch;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(187, 187, 187) rgb(170, 170, 170) rgb(136, 136, 136);
